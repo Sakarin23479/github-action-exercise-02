@@ -1,12 +1,11 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/* --exit",
+    "test": "mocha ./test_user/* --exit",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon ./users/index.js"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +17,17 @@
   },
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sakarin23479/github-action-exercise-02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sakarin23479/github-action-exercise-02/issues"
+  },
+  "homepage": "https://github.com/Sakarin23479/github-action-exercise-02#readme",
+  "description": ""
 }
