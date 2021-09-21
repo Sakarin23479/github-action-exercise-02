@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test_user/* --exit",
+    "test": "mocha ./tests/* --exit",
     "start": "node index.js",
-    "dev": "nodemon ./users/index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
